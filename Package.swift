@@ -1,10 +1,10 @@
-// swift-tools-version:5.7
+// swift-tools-version:6.0
 import PackageDescription
 
 let package = Package(
     name: "BearAnimation",
     platforms: [
-        .iOS(.v13),
+        .iOS(.v16),
         .macOS(.v10_15)
     ],
     products: [
